@@ -46,6 +46,7 @@ setup(
     keywords=[],
     scripts=[],
     entry_points={"console_scripts": ["pycowsay=pycowsay.main:main"]},
+    data_files=[("share/man/man6", ["man/pycowsay.6"])],
     zip_safe=False,
     install_requires=DEPENDENCIES,
     test_suite="tests.test_project",
